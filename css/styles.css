@@ -23,8 +23,11 @@ body>.container:first-child {
 .navbar-nav>li>a {
     color: #E24E42;
 }
-.navbar-nav>li.active>a {
+.navbar-nav>li.active>a, .navbar-nav>li.active>a:hover {
     color: antiquewhite;
+    background-color: #E24E42;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .navbar-nav>li>a:hover {
     color: #E24E42;
@@ -74,7 +77,29 @@ body#container {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
 }
+.alignCenter{
+    margin: 0 auto;
+}
+.pagination {
+    margin: 5px auto;
+}
+.pagination li a {
+    padding-left: 19px;
+    padding-right: 19px;
+    color: #e24e42;
+}
+.pagination>.active>a, .pagination>.active>a:hover {
+    background-color: #e24e42;
+    border-color: #e24e42;
+    color: antiquewhite;
+}
+.pagination li a:hover, .pagination li a:focus {
+    color: #e24e42;
+}
+.pagination li a.arrowPointer {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 footer.strip {
     text-align: center;
 }
-

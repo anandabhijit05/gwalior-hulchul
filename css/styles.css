@@ -10,6 +10,9 @@ body>.container:first-child {
 .hul-header {
     position: relative;
 }
+.web-radio {
+    float: right;
+}
 .hul-header .nav{
     position: absolute;
     bottom: 0;
@@ -160,11 +163,10 @@ h3 {
     display: inline-block;
     width: 64px;
     height: 64px;
-    margin-right: 25px;
     overflow: hidden;
-    border-radius: 5px;
 }
 .follow-facebook > img, .follow-twitter > img, .follow-google-plus > img {
     width: 48px;
     height: 48px;
+    border-radius: 5px;
 }

@@ -13,6 +13,18 @@ body>.container:first-child {
 .web-radio {
     float: right;
 }
+.navbar-toggle {
+    background-color: #E24E42;
+}
+.navbar-toggle .icon-bar {
+    border: solid 1px antiquewhite;
+}
+.navbar-toggle:hover {
+    background-color: antiquewhite;
+}
+.navbar-toggle:hover .icon-bar {
+    border: solid 1px #E24E42;
+}
 .hul-header .nav{
     position: absolute;
     bottom: 0;
@@ -118,20 +130,6 @@ footer.strip {
 .affix {
     top: 0px;
     z-index: 99999;
-}
-div#newsContainer.page-1 {
-    background: url('../img/Current/Page-1.gif') top left no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 0;
-    padding-top: 141%;
-}
-div#newsContainer.page-2 {
-    background: url('../img/Current/Page-2.gif') top left no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 0;
-    padding-top: 141%;
 }
 div.footer-hero {
     height: 300px;

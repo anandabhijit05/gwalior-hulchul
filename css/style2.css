@@ -1,0 +1,109 @@
+body {
+    font-family: Georgia, Times, serif;
+}
+h2#webRadio {
+    font-family: Arial, sans-serif;
+    color: #E24E42;
+    display: inline-block;
+    margin-top: 5px;
+}
+span#changeColor {
+    color: antiquewhite;
+    background-color: #E24E42;
+}
+div.row {
+    /* border: solid 1px yellow; */
+}
+.nav-radio-container {
+    line-height: 50px;
+}
+@media all and (max-width: 600px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .navbar-nav {
+        margin:0; /* Center your menu with current 100% width available */
+    }
+    .navbar .nav > li {
+        display: block;
+    }
+    .navbar .nav > li  img {
+        margin: auto;
+    }
+}
+@media screen and (min-width: 671px) {
+    .nav-radio-container {
+        text-align: right;
+    }
+}
+@media screen and (max-width: 670px) {
+    h2#webRadio {
+        font-size: 25px;
+    }
+    .nav-radio-container {
+        text-align: center;
+        min-height: 50px;
+    }
+    .logo-img>img {
+        width: 102px;
+        height: 84px;        
+    }
+}
+i.fa.fa-play-circle-o {
+    color: #e24e42;
+    padding: 1px;
+}
+i.fa.fa-pause-circle-o {
+    color: #e24e42;
+    padding: 1px;
+}
+i.fa.fa-play-circle-o:hover {
+    background-color: #e24e42;
+    color: antiquewhite;
+    border-radius: 50%;
+}
+i.fa.fa-pause-circle-o:hover {
+    background-color: #e24e42;
+    color: antiquewhite;
+    border-radius: 50%;
+}
+nav.navbar{
+    float: right;
+    margin-bottom: -1px;
+    margin-right: -30px;
+}
+.navbar-toggle {
+    background-color: #E24E42;
+}
+.navbar-toggle .icon-bar {
+    border: solid 1px antiquewhite;
+}
+.navbar-toggle:hover {
+    background-color: antiquewhite;
+    border: solid 1px #E24E42;
+}
+.navbar-toggle:hover>.icon-bar {
+    border: solid 1px #E24E42;
+}
+.navbar-nav>li.active {
+    background-color: #E24E42;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.navbar-nav>li>a {
+    color: #E24E42;
+}
+.navbar-nav>li.active>a, .navbar-nav>li.active>a:hover {
+    color: antiquewhite;
+    background-color: #E24E42;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.navbar-nav>li>a:hover {
+    color: #E24E42;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+div#navbar-hulchul.navbar-collpase.collapse.in {
+    width: 500px;
+}

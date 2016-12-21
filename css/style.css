@@ -1,5 +1,6 @@
 body {
     background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .site-logo {
     border-radius: 5px;
@@ -44,7 +45,7 @@ span#changeColor {
 #breakingNewsFooter {
     color: antiquewhite;
     text-align: left;
-    padding: 7px;
+    padding: 7px 7px 7px 0;
     display: inline-block;
 }
 .breaking-news-scroll {
@@ -83,8 +84,10 @@ span#changeColor {
 }
 .affix {
     top: -5px;
-    left: auto;
     z-index: 99999;
+}
+.nav-placeholder {
+    margin: 0 auto;
 }
 .news-content {
     display: block;
@@ -92,6 +95,53 @@ span#changeColor {
 img.img-fluid {
     max-width: 100%;
     height: auto;
+}
+.strip {
+    background: #222;
+    color: #e24e42;
+    padding: 10px;
+    font-size: 13px;
+    width: 100%;
+    font-family: Georgia, Times, serif;
+    border-top: ridge 1px #e24e42;
+}
+#footerContainer{
+    margin-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-top: solid 5px #000;
+}
+#footerHero{
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 300px;
+    /*border-top: solid 1px #e24e42;*/
+    background-color: #222;
+    color: #ebebeb;
+    box-shadow: 0 15px 15px -15px #e24e42 inset;
+}
+.footer-content-heading{
+    font-size: 22px;
+    color: #e24e42;
+    margin: 30px 0;
+}
+.contact>h3 {
+    font-size: 18px;
+}
+.follow-facebook, .follow-twitter, .follow-google-plus {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.follow-twitter, .follow-google-plus {
+    margin-left: 16px;
+}
+.follow-facebook >a> img, .follow-twitter >a> img, .follow-google-plus >a> img {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
 }
 /* ------------ making it responsive ------------ */
 @media screen and (max-width: 992px){
@@ -112,6 +162,20 @@ img.img-fluid {
         padding-left: 14px;
         padding-right: 14px;
     }
+    .follow,.contact {
+        text-align: center;
+    }
+    .follow {
+        border-top: ridge 1px #e24e42;
+    }
+    .contact {
+        margin-bottom: 30px;
+    }
+    .follow-facebook > img, .follow-twitter > img, .follow-google-plus > img {
+        width: 38px;
+        height: 38px;
+        border-radius: 5px;
+    }
 }
 @media screen and (max-width: 567px) {
     .pagination-lg>li:last-child>a {
@@ -131,7 +195,7 @@ img.img-fluid {
         display: none;
     }
     .breaking-news-strip {
-        width: 102%;
+        width: 100%;
         padding: 10px 10px;
     }
     .breaking-news-scroll {

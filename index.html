@@ -12,7 +12,7 @@
         <meta name="author" content="abhi">
         <title>Gwalior Hulchal - Daily Hindi News Portal, Best news portal for Latest News from Chambal &amp; MP Region</title>
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style2copy.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--[if lt IE 9]>
             <script src="//cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -69,7 +69,7 @@
                                 <li><a href="#">Breaking News</a></li>
                                 <li><a href="#">Video News</a></li>
                                 <li><a href="#">Old News</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#footerContainer">Contact Us</a></li>
                             </ul>
                         </div> <!-- #hulchul-navbar -->
                     </nav>
@@ -87,7 +87,7 @@
             <div class="row">
                 <div class="pull-left" id="breakingNewsHeader">Breaking News:</div>
                 <div class="col-md-4 col-s-12 col-xs-12 breaking-news-scroll"><span><img src="http://www.gwaliorhulchal.com/live%20news%20upload/scrolling%20news.jpg" /></span></div>
-                <div class="text-right"><a href="#" id="breakingNewsFooter">Read more..</a></div>
+                <div class="text-right"><a href="#" id="breakingNewsFooter">Read more.. &nbsp;&nbsp;</a></div>
             </div>
         </div>
         
@@ -98,8 +98,8 @@
         <!-- PAGINATION STARTS HERE -->
         
         <div class="container hul-pagination">
-            <nav aria-label="Page navigation"> <!-- data-spy="affix" data-offset-top="245" -->
-                <div class="text-center">
+            <nav id="hulPagination" aria-label="Page navigation" data-spy="affix" data-offset-top="0"> 
+                <div class="text-center" id="paginationId">
                     <ul class="pagination pagination-lg">
                         <li class="page-item"><a class="page-link" href="#">1</a></li>
                         <li class="page-item"><a class="page-link" href="#">2</a></li>
@@ -132,8 +132,50 @@
         
         <!-- --------------------------------------- -->
         
+        <!-- FOOTER STARTS HERE -->
+        
+        <div class="container-fluid" id="footerContainer">
+            <div class="row" id="footerHero">
+                <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-12 contact">
+                    <div class="footer-content-heading">Contact us</div>
+                    <h3>Gwalior Hulchul</h3>
+                    <p>Pradeep Mandhare (Editor) <br> First floor, C-23 Basant Vihar<br/>Gwalior, Madhya Pradesh, India
+                        <br><span class="glyphicon glyphicon-earphone"> 0751-4071576</span>
+                        <br><span class="glyphicon glyphicon-phone"> 09827074815 / 09425111041</span>
+                        <br><a href="mailto:gwalior_hulchal@yahoo.co.in"><span class="glyphicon glyphicon-envelope"> gwalior_hulchal@yahoo.co.in</span></a>
+                    </p>
+                </div>
+                <div class="col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-12 follow">
+                    <div class="footer-content-heading">Follow us</div>
+                    <div class="follow-facebook">
+                        <a href="https://www.facebook.com/pages/Gwalior-Hulchal-Evening-Daily/376499499062140" target="_blank">
+                            <img src="img/social/fb.png">
+                        </a>
+                    </div>
+                    <div class="follow-twitter">
+                        <a href="https://twitter.com/gwaliorhulchal1" target="_blank">
+                            <img src="img/social/twitter.png">
+                        </a>
+                    </div>
+                    <div class="follow-google-plus">                        
+                        <a href="https://plus.google.com/u/0/105005199885952902347/posts" target="_blank">
+                            <img src="img/social/gplus.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <footer class="strip">
+                Daily News Portal, M P News, Gwalior News, Chambal News, International News, Breaking News, Vedio News, India News, Travel News, Cricket News, Hindi News, Business, Film, Stock Market, Health, IT News.
+            </footer>
+        
+        </div>
+        
+        <!-- FOOTER ENDS HERE -->
+        
+        <!-- --------------------------------------- -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>        
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <!--<script type="text/javascript" src="js/script.js"></script>-->
 </html>

@@ -1,4 +1,17 @@
 jQuery(document).ready(function(){
+    var $webRadio = document.getElementById("webRadioPlayer");
+    var $playing = false;
+    jQuery("span#radioPlayer>i").click(function(){
+        $(this).toggleClass("fa-pause-circle-o fa-play-circle-o");
+        if ($playing == true){
+            $webRadio.pause();
+            $playing = false;
+        }
+        else {
+            $webRadio.play();
+            $playing = true;
+        }
+    });
     var paginationTopOffset = jQuery("ul.pagination-lg").offset().top;
     //var paginationTopOffset = jQuery("div.hul-pagination").offset().top;
     jQuery("nav#hulPagination").attr("data-offset-top",paginationTopOffset);

@@ -22,62 +22,83 @@
     </head>
     <body>
         
-        <!-- LOGO and WEB RADIO -->
+        <!-- LOGO, WEB RADIO and main NAV -->
         
         <div class="container">
             <div class="row">
+                
+                <!-- LOGO -->
+                
                 <div class="col-md-3 col-sm-3 col-xs-2">
                     <img src="img/hul_logo.png" class="site-logo" />
                 </div>
-                    <div class="col-xs-offset-2 col-xs-8 col-sm-offset-4 col-sm-4 col-md-offset-6 col-md-3">
-                            <h2 id="webRadio">Web<span id="changeColor">Radio</span>
+                
+                <!-- END of LOGO -->
+                
+                <!-- --------------------------------------- -->
+                
+                <div class="col-md-8 col-sm-8 col-xs-9">
+                    
+                    <!-- WEB RADIO -->
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 id="webRadio" class="pull-right">Web<span id="changeColor">Radio</span>
                                 <audio id="webRadioPlayer" src="audio%20news.mp3"></audio>
-                                <span>
+                                <span id="radioPlayer">
+                                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                    <!--
                                     <a onclick="document.getElementById('webRadioPlayer').play()">
                                         <i class="fa fa-play-circle-o" aria-hidden="true"></i>
                                     </a>
                                     <a onclick="document.getElementById('webRadioPlayer').pause()">
                                         <i class="fa fa-pause-circle-o" aria-hidden="true"></i>
                                     </a>
+                                    -->
                                 </span>
-                            </h2>
+                            </h3>
                         </div>
-                </div><!-- .row - end of web radio section -->
-        </div>
-        
-        <!-- LOGO and WEB RADIO ENDS HERE -->
-        
-        <!-- --------------------------------------- -->
-        
-        <!-- NAV BAR -->        
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-default">
-                        <div class="container-fluid">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hulchul-navbar" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
+                    </div>
+                    
+                    <!-- WEB RADIO ENDS HERE-->
+                    
+                    <!-- --------------------------------------- -->
+                    
+                    <!-- MAIN NAV STARTS -->
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid responsive-nav-toggle-button">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hulchul-navbar" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse navbar-right" id="hulchul-navbar">
+                                    <ul class="nav navbar-nav">
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li><a href="#">Breaking News</a></li>
+                                        <li><a href="#">Video News</a></li>
+                                        <li><a href="#">Old News</a></li>
+                                        <li><a href="#footerContainer">Contact Us</a></li>
+                                    </ul>
+                                </div> <!-- #hulchul-navbar -->
+                            </nav>
                         </div>
-                        <div class="collapse navbar-collapse navbar-right" id="hulchul-navbar">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">Breaking News</a></li>
-                                <li><a href="#">Video News</a></li>
-                                <li><a href="#">Old News</a></li>
-                                <li><a href="#footerContainer">Contact Us</a></li>
-                            </ul>
-                        </div> <!-- #hulchul-navbar -->
-                    </nav>
+                    </div>
+                    
+                    <!-- MAIN NAV ENDS HERE -->
+                    
+                    <!-- --------------------------------------- -->
+                    
                 </div>
-            </div>
+            </div><!-- .row - end of web radio section -->
         </div>
         
-        <!-- NAV BAR ENDS HERE -->
+        <!-- LOGO, WEB RADIO and main NAV ENDS HERE -->
         
         <!-- --------------------------------------- -->
         
